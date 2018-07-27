@@ -14,3 +14,6 @@ RUN npm i @google/clasp -g
 
 # Install jq
 RUN apt-get -y install jq
+
+# Set shell to bash
+RUN chsh -s /bin/bash
